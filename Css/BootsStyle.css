@@ -1,0 +1,53 @@
+.navbar
+{
+    margin-right:0;
+}
+/*How come the "img" element below works over the "src", yet my code has a src; not an img.*/
+.carousel-item img{
+    height: 300px;
+    width:500px;
+}
+.col-sm-12 {
+    flex: 0 0 auto;/*I don't recall wth this was for - Can't I do without it?*/
+    width: 100%;
+    padding:0px;
+}
+.card{
+    border-radius:1%;
+}
+.card img{
+    height:200px;
+    max-width: 400px;
+}
+#features {
+    /*min-width: 576px;- unnecessary bc I used "d-none d-sm-block" for the class .col-sm-6 */
+    background-color: aliceblue;
+    padding:0px;
+}
+#features2 {
+    background-color: aliceblue;
+    padding:0px;
+}
+#features source{
+    height: 200px;
+    width:315px;
+    border-radius:1%;
+}    
+.col-sm-3 .row{
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+.bgcard{
+    background-color:antiquewhite;
+}
+#featuring{
+    height:70px;
+    background-color:aliceblue;
+}
+.bttm {
+    padding-right: 0px;
+}
+.pages{
+    background-color:beige;
+    height: 1000px;
+}
